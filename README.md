@@ -24,7 +24,7 @@ Userplugins are not part of the official Vencord build, so you need to build Ven
 3. Put this plugin into `src/userplugins`:
    ```bash
    mkdir -p src/userplugins
-   git clone https://github.com/<your-username>/vc-hideFriendActivity src/userplugins/hideFriendActivity
+   git clone https://github.com/Lamanitos01/vc-hideFriendActivity src/userplugins/hideFriendActivity
    ```
 4. Build:
    ```bash
