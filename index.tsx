@@ -13,7 +13,6 @@ import { Menu } from "@webpack/common";
 const PresenceStore = findStoreLazy("PresenceStore");
 
 const settings = definePluginSettings({
-    // Stored list of hidden user IDs. CUSTOM options are not shown in the settings UI.
     hiddenUsers: {
         type: OptionType.CUSTOM,
         default: [] as string[],
@@ -25,7 +24,7 @@ function isHidden(userId: string): boolean {
 }
 
 function refreshUI() {
-    try { PresenceStore.emitChange?.(); } catch { /* not critical */ }
+    try { PresenceStore.emitChange?.(); } catch {  }
 }
 
 function toggleUser(userId: string) {
