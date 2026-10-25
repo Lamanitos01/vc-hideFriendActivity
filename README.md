@@ -13,7 +13,7 @@ Discord has no built-in way to hide *other people's* activity. This plugin adds 
 
 ## Installation
 
-Userplugins are not part of the official Vencord build, so you need to build Vencord from source once. For a general guide on installing plugins like this one, see [How to Install plugins from here](https://discord.com/channels/1015060230222131221/1257038407503446176/1257038407503446176).
+Userplugins are not part of the official Vencord build, so you need to build Vencord from source once. For a general guide on installing plugins like this one, see [How to Install plugins from here](https://docs.vencord.dev/installing/custom-plugins/).
 
 1. Install `git`, `nodejs` and `pnpm`.
 2. Clone Vencord:
