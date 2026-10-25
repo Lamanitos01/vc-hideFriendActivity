@@ -1,9 +1,7 @@
 /*
- * HideFriendActivity: a local Vencord userplugin.
- * Hides the game/activity status of selected users, on YOUR side only.
- * It sends nothing to Discord and does not touch the API.
- *
- * Usage: right-click a user anywhere -> "Hide activity" / "Show activity".
+ * HideFriendActivity, a Vencord userplugin
+ * Copyright (c) 2026 lamanitos
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import { NavContextMenuPatchCallback } from "@api/ContextMenu";
